@@ -16,25 +16,34 @@ class CreateGoalVC: UIViewController {
     @IBOutlet weak var longTermBtn: ButtonView!
     @IBOutlet weak var nextBtn: UIButton!
     
-    
     //Variables
+    var goalType: GoalType = .shortTerm
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nextBtn.bindToKeyboard()
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDeselectedColor()
     }
     
     @IBAction func backBtnPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
     
     @IBAction func shortTermBtnPressed(_ sender: Any) {
+        goalType = .shortTerm
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDeselectedColor()
     }
     
     @IBAction func longTermBtnPressed(_ sender: Any) {
+        goalType = .longTerm
+        shortTermBtn.setDeselectedColor()
+        longTermBtn.setSelectedColor()
     }
     
     @IBAction func nextBtnPressed(_ sender: Any) {
+        
     }
 }

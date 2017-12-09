@@ -17,6 +17,9 @@
 		B57BE4CE1FDC91DA006BACBF /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4CD1FDC91DA006BACBF /* GoalType.swift */; };
 		B57BE4D11FDC97D0006BACBF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4D01FDC97D0006BACBF /* ButtonView.swift */; };
 		B57BE4D31FDC9961006BACBF /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4D21FDC9961006BACBF /* CreateGoalVC.swift */; };
+		B57BE4D51FDC9C11006BACBF /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4D41FDC9C11006BACBF /* UIViewControllerExt.swift */; };
+		B57BE4D71FDC9F24006BACBF /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4D61FDC9F24006BACBF /* UIViewExt.swift */; };
+		B57BE4D91FDCA1FA006BACBF /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BE4D81FDCA1FA006BACBF /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		B57BE4CD1FDC91DA006BACBF /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		B57BE4D01FDC97D0006BACBF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		B57BE4D21FDC9961006BACBF /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		B57BE4D41FDC9C11006BACBF /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		B57BE4D61FDC9F24006BACBF /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		B57BE4D81FDCA1FA006BACBF /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		B57BE4CA1FDC76A6006BACBF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B57BE4D41FDC9C11006BACBF /* UIViewControllerExt.swift */,
+				B57BE4D61FDC9F24006BACBF /* UIViewExt.swift */,
+				B57BE4D81FDCA1FA006BACBF /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57BE4D71FDC9F24006BACBF /* UIViewExt.swift in Sources */,
+				B57BE4D91FDCA1FA006BACBF /* UIButtonExt.swift in Sources */,
 				B57BE4CC1FDC8217006BACBF /* GoalCell.swift in Sources */,
 				B57BE4CE1FDC91DA006BACBF /* GoalType.swift in Sources */,
+				B57BE4D51FDC9C11006BACBF /* UIViewControllerExt.swift in Sources */,
 				B57BE4D11FDC97D0006BACBF /* ButtonView.swift in Sources */,
 				B57BE4B51FDC75B1006BACBF /* GoalsVC.swift in Sources */,
 				B57BE4D31FDC9961006BACBF /* CreateGoalVC.swift in Sources */,
