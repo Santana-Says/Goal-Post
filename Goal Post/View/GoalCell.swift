@@ -15,9 +15,9 @@ class GoalCell: UITableViewCell {
     @IBOutlet weak var goalTypeLbl: UILabel!
     @IBOutlet weak var goalProgressLbl: UILabel!
     
-    func configCell(goalDescription desc: String, goalType type: String, goalProgressAmount days: Int) {
+    func configCell(goalDescription desc: String, goalType type: GoalType, goalProgressAmount days: Int) {
         goalDescriptionLbl.text = desc
-        goalTypeLbl.text = type
+        goalTypeLbl.text = type.rawValue
         goalProgressLbl.text = "\(days)"
     }
     

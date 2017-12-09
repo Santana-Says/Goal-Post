@@ -88,7 +88,7 @@
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="nxd-pg-7CV" customClass="GoalCell" customModule="Goal_Post" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="goalCell" rowHeight="70" id="nxd-pg-7CV" customClass="GoalCell" customModule="Goal_Post" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nxd-pg-7CV" id="oPI-c7-zJn">
@@ -119,13 +119,16 @@
                                                             <rect key="frame" x="0.0" y="31.666666666666664" width="327" height="16.333333333333336"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IE-54-gxO">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="107" height="16.333333333333332"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="16.333333333333332"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="60" id="BUD-Wh-Mu8"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Term" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-V9-pLh">
-                                                                    <rect key="frame" x="107" y="0.0" width="220" height="16.333333333333332"/>
+                                                                    <rect key="frame" x="60" y="0.0" width="267" height="16.333333333333332"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
