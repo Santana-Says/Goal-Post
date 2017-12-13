@@ -99,17 +99,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CNn-b2-7so">
                                                     <rect key="frame" x="15" y="11" width="327" height="48"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="w5P-op-ylu">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="w5P-op-ylu">
                                                             <rect key="frame" x="0.0" y="0.0" width="327" height="21.666666666666668"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dk5-at-vyK">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="21.666666666666668"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="54" height="21.666666666666668"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="54" id="HzC-dh-zlP"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eat salad twice a week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="64W-Tt-d4f">
-                                                                    <rect key="frame" x="65" y="0.0" width="262" height="21.666666666666668"/>
+                                                                    <rect key="frame" x="59" y="0.0" width="268" height="21.666666666666668"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
